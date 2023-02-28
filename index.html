@@ -1,0 +1,25 @@
+<head>
+  <!--External Packages-->
+  
+  <!-- include libraries(jQuery, bootstrap) -->
+  <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script> 
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script> 
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+  <!-- include summernote css/js-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.2/summernote.js"></script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-summernote/0.8.1/angular-summernote.js"></script>
+  
+      <!--Custom scripts-->
+  <script src="summernote-script.js"></script>
+</head>
+
+<body ng-app="senior.social" ng-controller="SummerNoteController">
+  <summernote config="options" ng-model="model">
+  </summernote>
+</body>
+
+</html>
