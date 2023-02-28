@@ -1,7 +1,7 @@
 (function () {
-  
+
 });
-const app = angular.module('senior.social', ['summernote']);
+const app = angular.module('SummerWithAngular', ['summernote']);
 
 $.ajax({
   url: 'https://api.github.com/emojis',
@@ -35,7 +35,7 @@ app.controller('SummerNoteController', function ($scope) {
       }
     },
     placeholder: "Escreva aqui...",
-    width: 400,
+    width: 600,
     height: 250,
     minHeight: 150,
     maxHeight: 200,
